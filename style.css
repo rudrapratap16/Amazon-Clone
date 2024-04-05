@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 113px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+.para-1{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 15px;
+}
+
+.para-2{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 3px;
+
+}
+
+.nav-map{
+    display: flex;
+}
+
+/* select section */
+
+.delivery{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.nav-select{
+    width: 62px;
+    height: 40px;
+    border: none;
+    color: ccccccde;
+    background-color: #E6E6E6;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+
+}
+
+.nav-select:hover{
+    background-color: #ccccccde;
+    color: #0F1111;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-amazon{
+    border: none;
+    width: 900px;
+    height: 40px;
+    background-color: rgba(245, 243, 243, 0.91)
+}
+
+.mag-icon{
+    
+    color:#0F1111;
+}
+
+.search-icon{
+    
+    background-color: #fcdb03;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    display:flex;
+    height: 40px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon:hover{
+    background-color: #fcba03;
+}
+
+/* greetings section */
+
+.greeting{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.greeting-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-list select{
+    width: 17px;
+    background-color: #0F1111;
+    color: grey;
+    border: none;
+    height: 14px;
+}
+
+.sign-in{
+    font-size: 12px;
+}
+
+.account{
+    font-size: 14px;
+}
+
+.return{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+/* Cart */
+
+.nav-cart{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart{
+    display: flex;
+}
+
+.img-cart{
+    font-size:20px;
+}
+
+.cart p{
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+                                                    /* nav2 */
+/* menu logo */
+
+.nav2{
+    background-color: #0F1111;
+    opacity: 0.4;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.menu-logo{
+    display:flex;
+}
+
+.bars{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.menu-logo p{
+    padding-top: 3px;
+    margin-left: 6px;
+    color: white;
+}
+
+/* items of nav2 */
+
+.nav2-items{
+    display:flex;
+    color: white;
+}
+
+.nav2-items p{
+    margin-left: 20px;
+    height: 20px;
+}
+
+/* hero section */
+
+.hero{
+    height: 500px;
+    width: 100%;
+}
+
+.text-hero-section{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 170px;
+    left:70px;
+    width: 90%;
+    height: 40px;
+}
+
+.link-amazon{
+    text-decoration: none;
+    color: #007185;
+}
+
+.hero-image{
+    height: 100%;
+    width: 100%;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+}
+
+.boxes{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #a6bcbf;
+    padding-bottom: 25px;;
+}
+
+.box{
+    height: 420px;
+    width: 326px;
+    background-color: white;
+    margin-top: 25px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box1{
+    height: 350px;
+    width: 250px;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    margin-left: 40px;
+}
+.box2{
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+    background-image: url("box2_image.jpg");
+    margin-left: 40px;
+}
+.box3{
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+    background-image: url("box3_image.jpg");
+    margin-left: 40px;
+}
+.box4{
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+    background-image: url("box4_image.jpg");
+    margin-left: 40px;
+}
+
+.box5{
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+    background-image: url("box5_image.jpg");
+    margin-left: 40px;
+}
+.box6{
+    height: 350px;
+    width: 250px;
+    background-size: cover;
+    background-image: url("box6_image.jpg");
+    margin-left: 40px;
+}
+.box7{
+    height: 350px;
+    background-size: cover;
+    width: 250px;
+    background-image: url("box7_image.jpg");
+    margin-left: 40px;
+}
+.box8{
+    height: 350px;
+    background-size: cover;
+    width: 250px;
+    background-image: url("box8_image.jpg");
+    margin-left: 40px;
+}
+
+.box p{
+    margin-top: 15px;
+    /* margin-bottom: 25px; */
+    padding-bottom: 15px;
+    margin-left: 40px;
+}
+
+.see-more{
+    margin-top: 25px;
+    font-size: 13px;
+    color: blue; 
+}
+
+/* footer section */
+
+.back-to-top{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56687e;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+}
+
+.back-to-top:hover{
+    background-color: #6a7581;
+}
+
+
+.footer-text{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: white;
+    background-color: #232F3E;
+    height: 100%;
+}
+.text-heading1-elements{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    padding-top: 20px;
+    color: rgba(242, 240, 240, 0.941);
+    width: 150px;
+}
+
+.text-heading1-elements p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.text-heading{
+    font-weight: 700;
+}
+
